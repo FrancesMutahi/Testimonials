@@ -138,6 +138,7 @@
         margin-right: 0px;
         padding-left: 0px;
         position: relative;
+        
     }
     
     .image{
@@ -149,8 +150,9 @@
         background-size: contain;
         background-repeat: no-repeat;
         padding: 80px;
-        width: 850px;        
-        box-shadow: inset;        
+        width: 850px;
+                  
+            
     }
     
     #photo{
@@ -158,6 +160,7 @@
         margin-bottom: 0px;
         width: 540px;
         height: 540px;
+        box-shadow: 50px 50px -10px 10px#f2f2f2;
              
     }
     
@@ -166,7 +169,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: #fff;
+        background-color: #f2f2f2;
         border-radius: 40%;
         width: 100px;
         height: 70px;
@@ -174,6 +177,7 @@
         position: absolute;
         margin-top: 550px; 
         margin-right: 300px;
+        
     }
     
     .text{
@@ -216,9 +220,7 @@
     }
     
     .curve{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        
         background-image: url("../images/pattern-curve.svg");
         background-repeat: no-repeat;
         background-position-x: left;
